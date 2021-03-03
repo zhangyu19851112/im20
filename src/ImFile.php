@@ -278,7 +278,7 @@ class ImFile
         header("Content-type: {$type}");
         header('Expires: ' . gmdate('D, d M Y H:i:s', time() + 3600 * 24 * 10) . ' GMT');
 
-        $content = @file_get_contents($filepath);
+        $content = file_get_contents($filepath);
         if ($return) {
             return $content;
         }
