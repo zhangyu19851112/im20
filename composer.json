@@ -1,0 +1,14 @@
+{
+  "name": "zhangyu19851112/Im20",
+  "description": "工具方法",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "zhangyu19851112",
+      "email": ""
+    }
+  ],
+  "require": {
+  }
+}
